@@ -1,0 +1,89 @@
+.adresses{
+    width: 100%;
+}
+.adresses h2{
+    font-family: Erotique Trial;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: center;
+}
+.cities{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.city{
+    width: 40%;
+}
+.city h3{
+    font-family: Erotique Trial;
+font-size: 64px;
+font-weight: 400;
+line-height: 76px;
+}
+.localisation p{
+font-size: 24px;
+font-weight: 300;
+line-height: 35px;
+text-align: left;
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.info p{
+font-size: 24px;
+font-weight: 300;
+line-height: 35px;
+text-align: left;
+
+}
+
+@media screen and (max-width: 1800px){
+    .cities{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1300px){
+    .cities{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1130px){
+    .city h3{
+        font-size: 50px;
+    }
+    .localisation p{
+        font-size: 18px;
+    }
+    .info p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 900px){
+    .adresses h2{
+        font-size: 40px;
+    }
+    .cities{
+        flex-direction: column;
+    }
+    .city{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .city h3{
+        font-size: 40px;
+    }
+    .localisation p{
+        font-size: 16px;
+    }
+    .info p{
+        font-size: 16px;
+    }
+}

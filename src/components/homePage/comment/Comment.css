@@ -1,0 +1,87 @@
+.comment {
+  display: flex;
+  max-width: 1620px;
+  margin-top: 100px;
+  margin: 0 auto;
+}
+.comment .left {
+  width: 45%;
+  background: #faf0e6;
+}
+.comment p {
+  color: black;
+}
+.comment .quote {
+  height: 30px;
+  width: 32px;
+  margin-left: 123px;
+  font-family: CotorisBold;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 77px;
+  text-align: left;
+}
+.comment .text {
+  height: 50%;
+  width: 65%;
+  margin-left: 30%;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.leftDown {
+  display: flex;
+justify-content: space-between;  width: 70%;
+  margin-left: 30%;
+  
+}
+.rightDown{
+  padding-right: 5%;
+
+}
+.comment .commentName {
+  height: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+.comment .commentLieu {
+  height: 14px;
+  width: 20%px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13px;
+  text-align: left;
+}
+.right img{
+  width: 100%;
+}
+
+@media screen and (max-width: 1250px){
+  .comment .text{
+    font-size: 16px;
+    margin-left: 20%;
+  }
+  .comment .leftDown{
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 1024px){
+  .comment{
+    flex-direction: column;
+  }
+  .comment .left {
+    width: 100%;
+    padding-bottom: 75px;
+
+  }
+  .comment .text{
+    margin-left: 15%;
+  }
+  .comment .leftDown{
+    margin-left: 15%;
+  }
+}

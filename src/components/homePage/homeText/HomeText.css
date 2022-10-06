@@ -1,0 +1,38 @@
+.homeText{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.homeText img {
+    transform: translateY(-80%);
+}
+.homeText p {
+  font-family: Archivo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: white;
+  top: 2327px;
+  width: 85%;
+  height: 105px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+  .homeText{
+    height: 450px;
+   flex-direction: column;
+   padding-top: 50px;
+  }
+  .homeText p{
+    font-size: 18px;
+  }
+  .homeText img{
+    transform: translateY(-0%);
+
+  }
+}

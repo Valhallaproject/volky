@@ -1,0 +1,23 @@
+.menuText{
+width: 100%;
+padding-top: 260px;
+padding-bottom: 260px;
+   
+}
+.menuText h2{
+    width: 30%;
+    font-family: Erotique Trial;
+font-size: 59px;
+font-weight: 400;
+line-height: 71px;
+margin: 0 auto;
+text-align: center;
+}
+
+@media screen and (max-width: 650px){
+    .menuText h2{
+        width: 70%;
+    font-size: 30px;
+    }
+     
+}

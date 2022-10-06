@@ -1,0 +1,50 @@
+.aboutDesc2 {
+    padding-left: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 1300px;
+  }
+  .aboutDesc2 h3 {
+    font-family: Archivo;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 49px;
+    
+  }
+  .aboutDesc2 p {
+    font-family: Archivo;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    width: 40%;
+  }
+  .imgDesc21{
+      position: absolute;
+margin-top: -350px;     
+ width: 45%;
+  }
+
+  @media screen and (max-width: 1024px){
+    .aboutDesc2{
+      flex-direction: column-reverse;
+      height: auto;
+      padding-left: 0;
+    }
+    .aboutDesc2 .text{
+      padding: 5%;
+    }
+    .imgDesc21{
+      position: relative;
+      width: 100%;
+      margin-top: 5%;
+    }
+    .aboutDesc2 p {
+      font-size: 18px;     
+      line-height: 29px;
+      text-align: center;
+      width: 90%;
+    }
+  
+  }

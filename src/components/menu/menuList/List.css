@@ -1,0 +1,69 @@
+.list{
+    width: 100%;
+    
+}
+.sectionMenu{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+.sectionMenu h2{
+    width: 60%;
+    font-family: Erotique Trial;
+font-size: 96px;
+font-weight: 400;
+line-height: 98px;
+text-align: left;
+margin-top: 140px;
+margin-bottom: 40px;
+}
+.sectionMenu p{
+    font-family: Archivo;
+font-size: 32px;
+font-weight: 500;
+line-height: 42px;
+
+
+}
+.productList{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    text-align: end;
+}
+.decor{
+    width: 20%;
+    position: absolute;
+    top: 190%;
+}
+.decor img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .sectionMenu{
+        width: 70%;
+    }
+    .sectionMenu h2{
+        font-size: 75px;
+    }
+    .sectionMenu p{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 650px){
+    .sectionMenu{
+        width: 80%;
+    }
+    .sectionMenu h2{
+        font-size: 45px;
+    }
+    .sectionMenu p{
+        font-size: 18px;
+    }
+    .decor{
+        display: none;
+    }
+
+}

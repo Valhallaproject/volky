@@ -1,0 +1,19 @@
+.adressesTitle{
+    text-align: center;
+}
+.adressesTitle h1 {
+  font-family: Erotique Trial;
+  font-size: 110px;
+  font-weight: 400;
+  line-height: 131px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-top: 260px;
+}
+
+@media screen and (max-width: 900px){
+  .adressesTitle h1{
+    font-size: 55px;
+  }
+}

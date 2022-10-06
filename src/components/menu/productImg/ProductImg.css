@@ -1,0 +1,9 @@
+.productImg{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 150px;
+}
+.productImg img{
+    width: 49.5%;
+}
