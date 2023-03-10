@@ -2,7 +2,7 @@
   padding-left: 5%;
   padding-right: 5%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   height: 1200px;
 }

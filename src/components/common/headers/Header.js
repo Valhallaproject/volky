@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Burger from "./../../../assets/menu.png";
-import Close from "./../../../assets/close-white.png";
+import Burger from "./../../../assets/menu.svg";
+import Close from "./../../../assets/close-white.svg";
 import Logo from "./../../../assets/VOLKY.svg"
 import "./Header.css";
 
